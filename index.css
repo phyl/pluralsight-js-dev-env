@@ -1,0 +1,13 @@
+body {
+  font-family: sans-serif;
+  color: blue !important;
+  }
+
+  table th {
+    padding: 5px;
+  }
+
+  p {
+    font-size: 7px;
+    color: blue !important;
+  }
