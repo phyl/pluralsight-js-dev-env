@@ -1,10 +1,12 @@
-/* eslint-disable-console */
+
 
 import webpack from 'webpack';
 import webpackConfig from '../webpack.config.prod';
 import chalk from 'chalk';
 
 process.env.NODE_ENV = 'production';
+
+/* eslint-disable-console */
 
 console.log(chalk.blue('Generating minified bundle for production. this might take some time...'));
 
